@@ -1,0 +1,56 @@
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+    flex-basis: 75%;
+}
+.welcome {
+    text-align: center;
+    width: 300px;
+    height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.ävatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: black;
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 90px;
+}
+.welcome .start-chat {
+    width: 200px;
+    height: 30px;
+    color: white;
+    background: black;
+    border-radius: 16px;
+}
+.welcome p {
+    color: grey;
+    
+}
+
+.description{
+    border-bottom: 1px solid gray;
+}
+.account{
+    border: none;
+    background: none;
+    font-size:large;
+    font-weight: bold;
+     height: 80px;
+     margin-bottom: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .info {
+        display: none;
+    }
+}

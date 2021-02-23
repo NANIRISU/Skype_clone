@@ -1,0 +1,147 @@
+.sidepage-container {
+    background: #eee;
+    flex-basis: 25%;
+    border-right: 1px solid #ccc;
+}
+.üser-info {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.üser-info p {
+    font-size: 14px;
+    margin-left: 8px;
+}
+.üser-info p span {
+    color: grey;
+}
+.üser-avtar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+}
+.user-ïtem {
+    display: flex;
+    align-items: center;
+   width: 100%;
+}
+.dots {
+    float: right;
+}
+
+.user-options{
+    display: flex;
+   padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+#user-chat, #user-call,#user-contacts,#user-notification{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 50px;
+    
+}
+.new-section{
+    display: flex;
+    
+}
+.meet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+   
+}
+.meeting{
+   width: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    background: white;
+    margin: 5px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+}
+#chat {
+    font-size: 12px;
+    margin-left: 10px;
+}
+.search {
+    display: flex;
+    align-items: center;
+   background: white;
+   margin: 10px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+}
+#input{
+    outline: none;
+     width: 300px;
+     height: 30px;
+     padding: 5px;
+     border: none;
+    border-right: 1px solid #ccc;
+}
+.search-icon {
+   margin: 10px;
+}
+.keypad {
+    margin: 10px;
+   
+}
+.user-options p {
+    color: grey;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.icon {
+    font-size: 22px;
+    cursor: pointer;
+    
+}
+.icon:hover  {
+    color: blue;
+   font-weight: bold;
+}
+.recent-chats{
+    display: flex;
+    color: GREY;
+    margin-left: 10px;
+    align-items: center;
+}
+.recent-users {
+    display: flex;
+    flex-direction: column;
+}
+.user {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+.user p {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .sidepage-container {
+        flex-basis: 100%;
+    }
+}
